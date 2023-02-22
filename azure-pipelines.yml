@@ -22,6 +22,7 @@ steps:
       $v1 ,$v2 = $v.Split("ey",2)
       Write-Host $v1
       Write-Host $v2
+      Write-Host "##vso[task.logissue]error/$v2"
   env: 
     system_accesstoken: $(System.AccessToken)
 
