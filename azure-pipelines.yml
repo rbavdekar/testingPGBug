@@ -10,7 +10,7 @@ pool:
   vmImage: windows-latest
 
 steps:
-- script: echo Hello, Bavdekar!
+- script: echo Bavdekar!
   displayName: 'Run a one-line script'
 
 - task: PowerShell@2
